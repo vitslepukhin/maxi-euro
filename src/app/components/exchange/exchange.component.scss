@@ -1,0 +1,23 @@
+:host {
+  &.new-value .value {
+    color: red;
+  }
+
+  .value {
+    transition: color 0.5s ease;
+    color: black;
+  }
+
+  .card {
+    min-width: 300px;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      .title {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
